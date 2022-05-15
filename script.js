@@ -23,7 +23,7 @@ var app = new Vue({
       title: "カナデトモスソラ",
       artist: "25時、ナイトコードで。",
       url: "./%E3%82%AB%E3%83%8A%E3%83%87%E3%83%88%E3%83%A2%E3%82%B9%E3%82%BD%E3%83%A9.mp3",
-      image: "https://sekai-res.dnaroma.eu/file/sekai-assets/music/jacket/jacket_s_149_rip/jacket_s_149.webp" },
+      image: "Images/カナデトモスソラ.png" },
 
     {
       title: "再生",
