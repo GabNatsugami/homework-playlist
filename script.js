@@ -17,7 +17,7 @@ var app = new Vue({
       title: "ビターチョコデコレーション",
       artist: "25時、ナイトコードで。",
       url: "./%E3%83%93%E3%82%BF%E3%83%BC%E3%83%81%E3%83%A7%E3%82%B3%E3%83%87%E3%82%B3%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.mp3",
-      image: "https://sekai-res.dnaroma.eu/file/sekai-assets/music/jacket/jacket_s_129_rip/jacket_s_129.webp" },
+      image: "Images/ビターチョコデコレーション.png" },
 
     {
       title: "カナデトモスソラ",
