@@ -35,7 +35,7 @@ var app = new Vue({
       title: "Blank",
       artist: "Blank",
       url: "Music/",
-      image: "Images/" }],
+      image: "Images/" },
 
 
     audioFile: "" },
