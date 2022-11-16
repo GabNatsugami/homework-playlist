@@ -255,14 +255,14 @@
 	 font-size: 1.75rem;
 }
  .heading p {
-	 margin: 0;
+	 margin: 2;
 	 font-size: 0.85rem;
 }
  .heading a {
 	 color: rgba(255, 255, 255, 0.8);
 	 transition: 0.3s;
-	 -webkit-text-decoration-style: dotted;
-	 text-decoration-style: dotted;
+	 opacity: 0.3;
+
 }
  .heading a:hover {
 	 color: white !important;
