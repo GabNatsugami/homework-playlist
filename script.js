@@ -98,10 +98,16 @@ var app = new Vue({
                             image: "./Images/Album Covers/Notion.jpg" },
 
                             {
-                              title: "",
-                              artist: "",
-                              url: "./Audio/.mp3",
-                              image: "./Images/Album Covers/.jpg" },
+                              title: "Can I Call You Tonight?",
+                              artist: "Dayglow",
+                              url: "./Audio/Can I Call You Tonight.mp3",
+                              image: "./Images/Album Covers/Fuzzybrain.jpg" },
+
+                              {
+                                title: "Cure For Me",
+                                artist: "AURORA",
+                                url: "./Audio/Cure For Me.mp3",
+                                image: "./Images/Album Covers/Cure for me.jpg" },
 
 ],
 
