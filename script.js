@@ -55,8 +55,21 @@ var app = new Vue({
                   url: "./Audio/Low Tide Love.mp3",
                   image: "./Images/Album Covers/Low Tide Love.jpg" },
 
+                  {
+                    title: "Every Time Around",
+                    artist: "Vansire",
+                    url: "./Audio/Every Time Around.mp3",
+                    image: "./Images/Album Covers/After Fillmore County.jpg" },
 
-            
+                  {
+                    title: "",
+                    artist: "",
+                    url: "./Audio/.mp3",
+                    image: "./Images/Album Covers/.jpg" },
+
+                    
+
+
 ],
 
     
