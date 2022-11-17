@@ -72,19 +72,36 @@ var app = new Vue({
                       artist: "The Strokes",
                       url: "./Audio/The Adults Are Talking.mp3",
                       image: "./Images/Album Covers/The New Abnormal.jpg" },
-                     
+
                       {
-                        title: "",
-                        artist: "",
-                        url: "./Audio/.mp3",
-                        image: "./Images/Album Covers/.jpg" },
+                        title: "Teenage Mind",
+                        artist: "Tate McRae",
+                        url: "./Audio/Teenage Mind.mp3",
+                        image: "./Images/Album Covers/Teenage Mind.jpg" },
+
+                      {
+                        title: "Chinese New Year",
+                        artist: "SALES",
+                        url: "./Audio/Chinese New Year.mp3",
+                        image: "./Images/Album Covers/SALES.jpg" },
 
                         {
-                          title: "",
-                          artist: "",
-                          url: "./Audio/.mp3",
-                          image: "./Images/Album Covers/.jpg" },
+                          title: "Electric Love",
+                          artist: "Børns",
+                          url: "./Audio/Electric Love.mp3",
+                          image: "./Images/Album Covers/Dopamine.jpg" },
+  
+                          {
+                            title: "Notion",
+                            artist: "The Rare Occasions",
+                            url: "./Audio/Notion.mp3",
+                            image: "./Images/Album Covers/Notion.jpg" },
 
+                            {
+                              title: "",
+                              artist: "",
+                              url: "./Audio/.mp3",
+                              image: "./Images/Album Covers/.jpg" },
 
 ],
 
