@@ -1,0 +1,7 @@
+	<div class="audioPlayerList" :class="{'isActive': isPlaylistActive}">
+		<p class="warning">You can only skip a few selection of songs the playlist will still continue.</p>
+		<div class="item" v-for="(item,index) in musicPlaylist" v-bind:class="{ 'isActive':isCurrentSong(index) }" v-on:click="changeSong(index),isPlaylistActive=!isPlaylistActive">
+			<p class="title">{{ item.title }}</p>
+			<p class="artist">{{ item.artist }}</p>
+			
+		</div>

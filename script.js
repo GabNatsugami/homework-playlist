@@ -16,19 +16,19 @@ var app = new Vue({
     {
       title: "Comfort Crowd",
       artist: "Conan Grey",
-      url: "./Audio\Comfort Crowd.mp3",
+      url: "./Audio/Comfort Crowd.mp3",
       image: "Images/Album Covers/Kid Crow ( Conan Grey ).jpg" },
 
       {
         title: "The Story",
         artist: "Conan Grey",
-        url: "./Audio\The Story.mp3",
+        url: "./Audio/The Story.mp3",
         image: "Images/Album Covers/Kid Crow ( Conan Grey ).jpg" },
 
         {
           title: "Are You Bored Yet?",
           artist: "Wallows Feat. Clairo",
-          url: "./Audio\Are You Bored Yet",
+          url: "./Audio/Are You Bored Yet",
           image: "Images/Album Covers/Nothing Happens ( Wallows ).jpg" },
 
           {
@@ -36,6 +36,25 @@ var app = new Vue({
             artist: "Meghan Trainor",
             url: "./Audio/Don't I Make It Look Easy.mp3",
             image: "./Images/Album Covers/Takin It Back (Megan Trainor).jpg" },
+
+            {
+              title: "Close To You",
+              artist: "Dayglow",
+              url: "./Audio/Close To You.mp3",
+              image: "./Images/Album Covers/Harmony House.jpg" },
+
+              {
+                title: "The Less I Know The Better",
+                artist: "Tame Impala",
+                url: "./Audio/The Less I Know The Better.mp3",
+                image: "./Images/Album Covers/Currents.gif" },
+  
+                {
+                  title: "Low Tide Love",
+                  artist: "Tipling Rock",
+                  url: "./Audio/Low Tide Love.mp3",
+                  image: "./Images/Album Covers/Low Tide Love.jpg" },
+
 
             
 ],
