@@ -30,7 +30,16 @@ var app = new Vue({
           artist: "Wallows Feat. Clairo",
           url: "./Audio\Are You Bored Yet",
           image: "Images/Album Covers/Nothing Happens ( Wallows ).jpg" },
+
+          {
+            title: "Don't I Make It Look Easy",
+            artist: "Meghan Trainor",
+            url: "./Audio/Don't I Make It Look Easy.mp3",
+            image: "./Images/Album Covers/Takin It Back (Megan Trainor).jpg" },
+
+            
 ],
+
     
     audioFile: "" },
 
@@ -153,3 +162,20 @@ var app = new Vue({
 
   document.documentElement.style.setProperty('--main-bg-color', randomColor);
   document.body.style.zoom="150%";
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("audioPlayerList isActive").style.top = "0";
+    } else {
+      document.getElementById("audioPlayerList isActive").style.top = "-50px";
+    }
+  }
