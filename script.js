@@ -68,16 +68,22 @@ var app = new Vue({
                     image: "./Images/Album Covers/Idle.jpg" },
 
                     {
-                      title: "",
-                      artist: "",
-                      url: "./Audio/.mp3",
-                      image: "./Images/Album Covers/.jpg" },
+                      title: "The Adults Are Talking",
+                      artist: "The Strokes",
+                      url: "./Audio/The Adults Are Talking.mp3",
+                      image: "./Images/Album Covers/The New Abnormal.jpg" },
 
                       {
                         title: "",
                         artist: "",
                         url: "./Audio/.mp3",
                         image: "./Images/Album Covers/.jpg" },
+
+                        {
+                          title: "",
+                          artist: "",
+                          url: "./Audio/.mp3",
+                          image: "./Images/Album Covers/.jpg" },
 
 
 ],
