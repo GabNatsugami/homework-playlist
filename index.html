@@ -67,7 +67,7 @@
 		<div Class="playingnext">
 			<p class="label">Song List</p>
 			<div class="item" v-for="(item,index) in musicPlaylist" v-bind:class="{ 'isActive':isCurrentSong(index) }" v-on:click="changeSong(index)">
-				<p class="title">{{ item.title }}</p>
+				<p class="title">{{ item.title }} - {{ item.artist }}</p>
 				
 				
 			</div>
