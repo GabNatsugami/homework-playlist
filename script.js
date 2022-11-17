@@ -72,12 +72,7 @@ var app = new Vue({
                       artist: "The Strokes",
                       url: "./Audio/The Adults Are Talking.mp3",
                       image: "./Images/Album Covers/The New Abnormal.jpg" },
-                      {
-                        title: "The Adults Are Talking",
-                        artist: "The Strokes",
-                        url: "./Audio/The Adults Are Talking.mp3",
-                        image: "./Images/Album Covers/The New Abnormal.jpg" },
-                        
+                     
                       {
                         title: "",
                         artist: "",
