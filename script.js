@@ -62,12 +62,22 @@ var app = new Vue({
                     image: "./Images/Album Covers/After Fillmore County.jpg" },
 
                   {
-                    title: "",
-                    artist: "",
-                    url: "./Audio/.mp3",
-                    image: "./Images/Album Covers/.jpg" },
+                    title: "talk is overrated.",
+                    artist: "Jeremy Zucker Feat. Blackbear",
+                    url: "./Audio/talk is overrated..mp3",
+                    image: "./Images/Album Covers/Idle.jpg" },
 
-                    
+                    {
+                      title: "",
+                      artist: "",
+                      url: "./Audio/.mp3",
+                      image: "./Images/Album Covers/.jpg" },
+
+                      {
+                        title: "",
+                        artist: "",
+                        url: "./Audio/.mp3",
+                        image: "./Images/Album Covers/.jpg" },
 
 
 ],
