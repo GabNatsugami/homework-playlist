@@ -257,9 +257,10 @@
 	 margin: 0;
 	 margin: 2rem 0;
 	 font-family: Inconsolata, monospace;
+	 color: black;
 }
  .heading h1 {
-	 color: #eceff1;
+	 color: black;
 	 margin: 0;
 	 margin-bottom: 1rem;
 	 font-size: 1.75rem;
@@ -275,10 +276,10 @@
 
 }
  .heading a:hover {
-	 color: white !important;
+	 color: black !important;
 }
  .heading a:visited {
-	 color: rgba(255, 255, 255, 0.5);
+	 color: black;
 }
  
 /* Playing Next */
