@@ -66,14 +66,22 @@
 		</div>
 
 		<div class="currentProgressBar">
-			<div class="currentProgress" :style="{ width: currentProgressBar + '%' }"></div>
+			<div class="currentProgress" :style="{ width: currentProgressBar + '%' }">
+			</div>
 			
+
+		
+		</div>
+
 			
 		</div>
 		
 				
-				
-			</div>
+		<div class="playingnext">
+			<p>Playing Next</p>
+				<p class="title" :key="currentSong +1">{{ musicPlaylist[currentSong +1].title }} - {{ musicPlaylist[currentSong +1].artist }}</p>
+		</div>	
+			
 
 		</div>
 	</div>
