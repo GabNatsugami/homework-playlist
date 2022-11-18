@@ -109,6 +109,19 @@ var app = new Vue({
                                 url: "./Audio/Cure For Me.mp3",
                                 image: "./Images/Album Covers/Cure for me.jpg" },
 
+                                {
+                                  title: "Blu",
+                                  artist: "Elujay",
+                                  url: "./Audio/Blu.mp3",
+                                  image: "./Images/Album Covers/Adojo.jpg" },
+
+                                  {
+                                    title: "",
+                                    artist: "",
+                                    url: "./Audio/.mp3",
+                                    image: "./Images/Album Covers/.jpg" },
+
+
 ],
 
     

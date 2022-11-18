@@ -276,16 +276,15 @@
 
 }
  .heading a:hover {
-	 color: black !important;
+	 color: white !important;
 }
  .heading a:visited {
-	 color: black;
+	 color: rgba(255, 255, 255, 0.5);
 }
  
 /* Playing Next */
 
 .playingnext p {
-	margin: 5px;
 	font-size: 12px;
 	color: black;
 }
