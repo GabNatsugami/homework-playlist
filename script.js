@@ -146,17 +146,29 @@ var app = new Vue({
                                             image: "./Images/Album Covers/bad idea!.jpg" },
                                             
                                             {
-                                              title: "",
-                                              artist: "",
-                                              url: "./Audio/.mp3",
-                                              image: "./Images/Album Covers/.jpg" },
+                                              title: "Paper Rings",
+                                              artist: "Taylor Swift",
+                                              url: "./Audio/Paper Rings.mp3",
+                                              image: "./Images/Album Covers/Lover.gif" },
                                             
                                               {
-                                                title: "",
-                                                artist: "",
-                                                url: "./Audio/.mp3",
-                                                image: "./Images/Album Covers/.jpg" },
-  
+                                                title: "Anti-Hero",
+                                                artist: "Taylor Swift",
+                                                url: "./Audio/Anti Hero.mp3",
+                                                image: "./Images/Album Covers/Midnights.gif" },
+
+                                                {
+                                                  title: "Memories",
+                                                  artist: "Conan Grey",
+                                                  url: "./Audio/Memories.mp3",
+                                                  image: "./Images/Album Covers/Superache.gif" },
+    
+                                                  {
+                                                    title: "",
+                                                    artist: "",
+                                                    url: "./Audio/.mp3",
+                                                    image: "./Images/Album Covers/.jpg" },
+      
 ],
 
     
