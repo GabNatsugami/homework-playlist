@@ -128,12 +128,35 @@ var app = new Vue({
                                       image: "./Images/Album Covers/Yellow Hearts.jpg" },
 
                                       {
-                                        title: "",
-                                        artist: "",
-                                        url: "./Audio/.mp3",
-                                        image: "./Images/Album Covers/.jpg" },
+                                        title: "So Beautiful",
+                                        artist: "DPR IAN",
+                                        url: "./Audio/So Beautiful.mp3",
+                                        image: "./Images/Album Covers/So Beautiful.jpg" },
 
+                                        {
+                                          title: "Ophelia",
+                                          artist: "The Lumineers",
+                                          url: "./Audio/Ophelia.mp3",
+                                          image: "./Images/Album Covers/Cleopatra.jpg" },
 
+                                          {
+                                            title: "bad idea!",
+                                            artist: "girl in bed",
+                                            url: "./Audio/bad idea!.mp3",
+                                            image: "./Images/Album Covers/bad idea!.jpg" },
+                                            
+                                            {
+                                              title: "",
+                                              artist: "",
+                                              url: "./Audio/.mp3",
+                                              image: "./Images/Album Covers/.jpg" },
+                                            
+                                              {
+                                                title: "",
+                                                artist: "",
+                                                url: "./Audio/.mp3",
+                                                image: "./Images/Album Covers/.jpg" },
+  
 ],
 
     
