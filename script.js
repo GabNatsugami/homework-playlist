@@ -122,10 +122,16 @@ var app = new Vue({
                                     image: "./Images/Album Covers/GINGER.jpg" },
 
                                     {
-                                      title: "",
-                                      artist: "",
-                                      url: "./Audio/.mp3",
-                                      image: "./Images/Album Covers/.jpg" },
+                                      title: "Yellow Hearts",
+                                      artist: "Ant Saunders",
+                                      url: "./Audio/Yellow Hearts.mp3",
+                                      image: "./Images/Album Covers/Yellow Hearts.jpg" },
+
+                                      {
+                                        title: "",
+                                        artist: "",
+                                        url: "./Audio/.mp3",
+                                        image: "./Images/Album Covers/.jpg" },
 
 
 ],
