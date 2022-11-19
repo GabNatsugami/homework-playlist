@@ -182,12 +182,73 @@ var app = new Vue({
                                                         image: "./Images/Album Covers/Free Time.jpg" }, 
 
                                                         {
-                                                          title: "",
-                                                          artist: "",
-                                                          url: "./Audio/.mp3",
-                                                          image: "./Images/Album Covers/.jpg" }, 
-],
+                                                          title: "Pinch Me",
+                                                          artist: "young friend",
+                                                          url: "./Audio/Pinch Me.mp3",
+                                                          image: "./Images/Album Covers/Pinch Me.jpg" },
+                                                          
+                                                          {
+                                                            title: "",
+                                                            artist: "",
+                                                            url: "./Audio/.mp3",
+                                                            image: "./Images/Album Covers/.jpg" },
+                                                           
+                                                            {
+                                                              title: "",
+                                                              artist: "",
+                                                              url: "./Audio/.mp3",
+                                                              image: "./Images/Album Covers/.jpg" },
 
+                                                              {
+                                                                title: "",
+                                                                artist: "",
+                                                                url: "./Audio/.mp3",
+                                                                image: "./Images/Album Covers/.jpg" },
+   
+                                                                {
+                                                                  title: "",
+                                                                  artist: "",
+                                                                  url: "./Audio/.mp3",
+                                                                  image: "./Images/Album Covers/.jpg" },
+
+                                                                  {
+                                                                    title: "",
+                                                                    artist: "",
+                                                                    url: "./Audio/.mp3",
+                                                                    image: "./Images/Album Covers/.jpg" },
+
+                                                                    {
+                                                                      title: "",
+                                                                      artist: "",
+                                                                      url: "./Audio/.mp3",
+                                                                      image: "./Images/Album Covers/.jpg" },
+
+                                                                      {
+                                                                        title: "",
+                                                                        artist: "",
+                                                                        url: "./Audio/.mp3",
+                                                                        image: "./Images/Album Covers/.jpg" },
+
+                                                                        {
+                                                                          title: "",
+                                                                          artist: "",
+                                                                          url: "./Audio/.mp3",
+                                                                          image: "./Images/Album Covers/.jpg" },
+
+                                                                          {
+                                                                            title: "",
+                                                                            artist: "",
+                                                                            url: "./Audio/.mp3",
+                                                                            image: "./Images/Album Covers/.jpg" },
+
+                                                                            {
+                                                                              title: "",
+                                                                              artist: "",
+                                                                              url: "./Audio/.mp3",
+                                                                              image: "./Images/Album Covers/.jpg" },
+
+
+],                                                          
     
     audioFile: "" },
 
@@ -327,3 +388,7 @@ var app = new Vue({
       document.getElementById("audioPlayerList isActive").style.top = "-50px";
     }
   }
+  //* sound volume control
+
+  
+  
