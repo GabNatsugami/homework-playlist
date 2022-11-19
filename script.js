@@ -164,11 +164,28 @@ var app = new Vue({
                                                   image: "./Images/Album Covers/Superache.gif" },
     
                                                   {
-                                                    title: "",
-                                                    artist: "",
-                                                    url: "./Audio/.mp3",
-                                                    image: "./Images/Album Covers/.jpg" },
-      
+                                                    title: "Generation Why",
+                                                    artist: "Conan Grey",
+                                                    url: "./Audio/Generation Why.mp3",
+                                                    image: "./Images/Album Covers/Sunset Season.jpg" },
+
+                                                    {
+                                                      title: "Crush Culture",
+                                                      artist: "Conan Grey",
+                                                      url: "./Audio/Crush Culture.mp3",
+                                                      image: "./Images/Album Covers/Sunset Season.jpg" },   
+
+                                                      {
+                                                        title: "Painkiller",
+                                                        artist: "Ruel",
+                                                        url: "./Audio/Painkiller.mp3",
+                                                        image: "./Images/Album Covers/Free Time.jpg" }, 
+
+                                                        {
+                                                          title: "",
+                                                          artist: "",
+                                                          url: "./Audio/.mp3",
+                                                          image: "./Images/Album Covers/.jpg" }, 
 ],
 
     
