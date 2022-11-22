@@ -195,16 +195,16 @@ var app = new Vue({
                                                             image: "./Images/Album Covers/Takin It Back (Megan Trainor).jpg" },
                                                            
                                                             {
-                                                              title: "",
-                                                              artist: "",
-                                                              url: "./Audio/.mp3",
-                                                              image: "./Images/Album Covers/.jpg" },
+                                                              title: "Malboro Nights",
+                                                              artist: "Lonely God",
+                                                              url: "./Audio/Marlboro Nights.mp3",
+                                                              image: "./Images/Album Covers/MALBORO NIGHTS.jpg" },
 
                                                               {
-                                                                title: "",
-                                                                artist: "",
-                                                                url: "./Audio/.mp3",
-                                                                image: "./Images/Album Covers/.jpg" },
+                                                                title: "Hello!",
+                                                                artist: "Role Model",
+                                                                url: "./Audio/Hello.mp3",
+                                                                image: "./Images/Album Covers/Oh, how perfect.jpg" },
    
                                                                 {
                                                                   title: "",
