@@ -29,7 +29,7 @@ var app = new Vue({
         {
           title: "Are You Bored Yet?",
           artist: "Wallows Feat. Clairo",
-          url: "./Audio/Are You Bored Yet",
+          url: "./Audio/Are You Bored Yet.mp3",
           image: "Images/Album Covers/Nothing Happens ( Wallows ).jpg" },
 
           {
@@ -189,10 +189,10 @@ var app = new Vue({
                                                           image: "./Images/Album Covers/Pinch Me.jpg" },
                                                           
                                                           {
-                                                            title: "",
-                                                            artist: "",
-                                                            url: "./Audio/.mp3",
-                                                            image: "./Images/Album Covers/.jpg" },
+                                                            title: "Made You Look",
+                                                            artist: "Meghan Trainor",
+                                                            url: "./Audio/Made You Look.mp3",
+                                                            image: "./Images/Album Covers/Takin It Back (Megan Trainor).jpg" },
                                                            
                                                             {
                                                               title: "",
