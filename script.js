@@ -2,7 +2,7 @@
 var app = new Vue({
   el: "#app",
   data: {
-    audio: "",
+    audio: "url:",
     imgLoaded: false,
     currentlyPlaying: false,
     currentlyStopped: false,
@@ -248,7 +248,218 @@ var app = new Vue({
                                                                               url: "./Audio/.mp3",
                                                                               image: "./Images/Album Covers/.jpg" },
 
+                                                                              {
+                                                                                title: "",
+                                                                                artist: "",
+                                                                                url: "./Audio/.mp3",
+                                                                                image: "./Images/Album Covers/.jpg" },
+          
+                                                                                {
+                                                                                  title: "",
+                                                                                  artist: "",
+                                                                                  url: "./Audio/.mp3",
+                                                                                  image: "./Images/Album Covers/.jpg" },
+          
+                                                                                  {
+                                                                                    title: "",
+                                                                                    artist: "",
+                                                                                    url: "./Audio/.mp3",
+                                                                                    image: "./Images/Album Covers/.jpg" },
+          
+                                                                                    {
+                                                                                      title: "",
+                                                                                      artist: "",
+                                                                                      url: "./Audio/.mp3",
+                                                                                      image: "./Images/Album Covers/.jpg" },
+          
+                                                                                      {
+                                                                                        title: "",
+                                                                                        artist: "",
+                                                                                        url: "./Audio/.mp3",
+                                                                                        image: "./Images/Album Covers/.jpg" },
 
+                                                                                        {
+                                                                                          title: "",
+                                                                                          artist: "",
+                                                                                          url: "./Audio/.mp3",
+                                                                                          image: "./Images/Album Covers/.jpg" },
+                    
+                                                                                          {
+                                                                                            title: "",
+                                                                                            artist: "",
+                                                                                            url: "./Audio/.mp3",
+                                                                                            image: "./Images/Album Covers/.jpg" },
+                    
+                                                                                            {
+                                                                                              title: "",
+                                                                                              artist: "",
+                                                                                              url: "./Audio/.mp3",
+                                                                                              image: "./Images/Album Covers/.jpg" },
+                    
+                                                                                              {
+                                                                                                title: "",
+                                                                                                artist: "",
+                                                                                                url: "./Audio/.mp3",
+                                                                                                image: "./Images/Album Covers/.jpg" },
+                    
+                                                                                                {
+                                                                                                  title: "",
+                                                                                                  artist: "",
+                                                                                                  url: "./Audio/.mp3",
+                                                                                                  image: "./Images/Album Covers/.jpg" },
+
+                                                                                                  {
+                                                                                                    title: "",
+                                                                                                    artist: "",
+                                                                                                    url: "./Audio/.mp3",
+                                                                                                    image: "./Images/Album Covers/.jpg" },
+                              
+                                                                                                    {
+                                                                                                      title: "",
+                                                                                                      artist: "",
+                                                                                                      url: "./Audio/.mp3",
+                                                                                                      image: "./Images/Album Covers/.jpg" },
+                              
+                                                                                                      {
+                                                                                                        title: "",
+                                                                                                        artist: "",
+                                                                                                        url: "./Audio/.mp3",
+                                                                                                        image: "./Images/Album Covers/.jpg" },
+                              
+                                                                                                        {
+                                                                                                          title: "",
+                                                                                                          artist: "",
+                                                                                                          url: "./Audio/.mp3",
+                                                                                                          image: "./Images/Album Covers/.jpg" },
+                              
+                                                                                                          {
+                                                                                                            title: "",
+                                                                                                            artist: "",
+                                                                                                            url: "./Audio/.mp3",
+                                                                                                            image: "./Images/Album Covers/.jpg" },
+
+                                                                                                            {
+                                                                                                              title: "",
+                                                                                                              artist: "",
+                                                                                                              url: "./Audio/.mp3",
+                                                                                                              image: "./Images/Album Covers/.jpg" },
+                                        
+                                                                                                              {
+                                                                                                                title: "",
+                                                                                                                artist: "",
+                                                                                                                url: "./Audio/.mp3",
+                                                                                                                image: "./Images/Album Covers/.jpg" },
+                                        
+                                                                                                                {
+                                                                                                                  title: "",
+                                                                                                                  artist: "",
+                                                                                                                  url: "./Audio/.mp3",
+                                                                                                                  image: "./Images/Album Covers/.jpg" },
+                                        
+                                                                                                                  {
+                                                                                                                    title: "",
+                                                                                                                    artist: "",
+                                                                                                                    url: "./Audio/.mp3",
+                                                                                                                    image: "./Images/Album Covers/.jpg" },
+                                        
+                                                                                                                    {
+                                                                                                                      title: "",
+                                                                                                                      artist: "",
+                                                                                                                      url: "./Audio/.mp3",
+                                                                                                                      image: "./Images/Album Covers/.jpg" },
+
+
+                                                                                                                      {
+                                                                                                                        title: "",
+                                                                                                                        artist: "",
+                                                                                                                        url: "./Audio/.mp3",
+                                                                                                                        image: "./Images/Album Covers/.jpg" },
+                                                  
+                                                                                                                        {
+                                                                                                                          title: "",
+                                                                                                                          artist: "",
+                                                                                                                          url: "./Audio/.mp3",
+                                                                                                                          image: "./Images/Album Covers/.jpg" },
+                                                  
+                                                                                                                          {
+                                                                                                                            title: "",
+                                                                                                                            artist: "",
+                                                                                                                            url: "./Audio/.mp3",
+                                                                                                                            image: "./Images/Album Covers/.jpg" },
+                                                  
+                                                                                                                            {
+                                                                                                                              title: "",
+                                                                                                                              artist: "",
+                                                                                                                              url: "./Audio/.mp3",
+                                                                                                                              image: "./Images/Album Covers/.jpg" },
+                                                  
+                                                                                                                              {
+                                                                                                                                title: "",
+                                                                                                                                artist: "",
+                                                                                                                                url: "./Audio/.mp3",
+                                                                                                                                image: "./Images/Album Covers/.jpg" },
+
+
+                                                                                                                                {
+                                                                                                                                  title: "",
+                                                                                                                                  artist: "",
+                                                                                                                                  url: "./Audio/.mp3",
+                                                                                                                                  image: "./Images/Album Covers/.jpg" },
+                                                            
+                                                                                                                                  {
+                                                                                                                                    title: "",
+                                                                                                                                    artist: "",
+                                                                                                                                    url: "./Audio/.mp3",
+                                                                                                                                    image: "./Images/Album Covers/.jpg" },
+                                                            
+                                                                                                                                    {
+                                                                                                                                      title: "",
+                                                                                                                                      artist: "",
+                                                                                                                                      url: "./Audio/.mp3",
+                                                                                                                                      image: "./Images/Album Covers/.jpg" },
+                                                            
+                                                                                                                                      {
+                                                                                                                                        title: "",
+                                                                                                                                        artist: "",
+                                                                                                                                        url: "./Audio/.mp3",
+                                                                                                                                        image: "./Images/Album Covers/.jpg" },
+                                                            
+                                                                                                                                        {
+                                                                                                                                          title: "",
+                                                                                                                                          artist: "",
+                                                                                                                                          url: "./Audio/.mp3",
+                                                                                                                                          image: "./Images/Album Covers/.jpg" },
+
+
+                                                                                                                                          {
+                                                                                                                                            title: "",
+                                                                                                                                            artist: "",
+                                                                                                                                            url: "./Audio/.mp3",
+                                                                                                                                            image: "./Images/Album Covers/.jpg" },
+                                                                      
+                                                                                                                                            {
+                                                                                                                                              title: "",
+                                                                                                                                              artist: "",
+                                                                                                                                              url: "./Audio/.mp3",
+                                                                                                                                              image: "./Images/Album Covers/.jpg" },
+                                                                      
+                                                                                                                                              {
+                                                                                                                                                title: "",
+                                                                                                                                                artist: "",
+                                                                                                                                                url: "./Audio/.mp3",
+                                                                                                                                                image: "./Images/Album Covers/.jpg" },
+                                                                      
+                                                                                                                                                {
+                                                                                                                                                  title: "",
+                                                                                                                                                  artist: "",
+                                                                                                                                                  url: "./Audio/.mp3",
+                                                                                                                                                  image: "./Images/Album Covers/.jpg" },
+                                                                      
+                                                                                                                                                  {
+                                                                                                                                                    title: "",
+                                                                                                                                                    artist: "",
+                                                                                                                                                    url: "./Audio/.mp3",
+                                                                                                                                                    image: "./Images/Album Covers/.jpg" },
 ],                                                          
     
     audioFile: "" },
@@ -407,9 +618,9 @@ volumeUp.addEventListener('click', handleVolumeUp);
 
 function handleVolumeDown() {
     volumeRange.value = Number(volumeRange.value) - 20
-    this.audio.volume = volumeRange.value / 100
+    audio.volume = volumeRange.value / 100
 }
 function handleVolumeUp() {
     volumeRange.value = Number(volumeRange.value) + 20
-    this.audio.volume = volumeRange.value / 100
+    audio.volume = volumeRange.value / 100
 }
