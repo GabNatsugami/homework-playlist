@@ -207,16 +207,16 @@ var app = new Vue({
                                                                 image: "./Images/Album Covers/Oh, how perfect.jpg" },
    
                                                                 {
-                                                                  title: "",
-                                                                  artist: "",
-                                                                  url: "./Audio/.mp3",
-                                                                  image: "./Images/Album Covers/.jpg" },
+                                                                  title: "Sunkissed",
+                                                                  artist: "khai dreams",
+                                                                  url: "./Audio/Sunkissed.mp3",
+                                                                  image: "./Images/Album Covers/Now And Then.jpg" },
 
                                                                   {
-                                                                    title: "",
-                                                                    artist: "",
-                                                                    url: "./Audio/.mp3",
-                                                                    image: "./Images/Album Covers/.jpg" },
+                                                                    title: "Don't miss me",
+                                                                    artist: "Claire Rosinkranz",
+                                                                    url: "./Audio/don't miss me.mp3",
+                                                                    image: "./Images/Album Covers/don't miss me.jpg" },
 
                                                                     {
                                                                       title: "",
