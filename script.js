@@ -390,14 +390,6 @@ var app = new Vue({
     }
   }
 
-// like
-var favIcon = document.querySelector('.favorite')
-function handleFavorite() {
-    favIcon.classList.toggle('active');
-}
-
-
-
 // volume
 var volIcon = document.querySelector('.volume')
 var volBox = document.querySelector('.volume-box')
