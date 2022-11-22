@@ -19,7 +19,7 @@
 	 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	 backdrop-filter: blur(20px);
 	 -webkit-backdrop-filter: blur(20px);
-	 min-height: auto;
+	 min-height: 700px auto;
 	 width: 20rem;
 	 overflow: hidden;
 	 padding: 1.5rem;
@@ -287,6 +287,7 @@
 .playingnext p {
 	font-size: 12px;
 	color: black;
+	text-align: center;
 }
 
 /* Scrollbar */
@@ -316,69 +317,80 @@
 	background-clip: content-box;
   }
 
-  .player-control {
-	min-height: 10vh;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-		-ms-flex-align: center;
-			align-items: center;
-	-webkit-box-pack: center;
-		-ms-flex-pack: center;
-			justify-content: center;
-  }
   
-  .player-control i {
-	cursor: pointer;
-	margin: 0 1.5rem;
-	font-size: 1.3rem;
-  }
-  
-  .sound-control {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-		-ms-flex-align: center;
-			align-items: center;
-	-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
-			justify-content: space-between;
-	margin: 0.2rem auto;
-	width: 60%;
-  }
-  
-  .sound-control input {
-	-webkit-box-flex: 1;
-		-ms-flex-positive: 1;
-			flex-grow: 1;
-	margin: 0 0.5rem;
-	max-height: 2px;
-	cursor: pointer;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-		 appearance: none;
-	background: black;
-	border-radius: 8px;
-	outline: none;
-  }
-  
-  .sound-control input::-webkit-slider-thumb {
-	-webkit-appearance: none;
-	appearance: none;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background: black;
+
+  .btn-box i {
+	bottom: 50px;
+	font-size: 20px;
+	color: black;
+	margin: 0 25px;
 	cursor: pointer;
   }
-  
-  .sound-control i {
+  .btn-box i.active {
 	color: black;
   }
-  
+  .volume-box {
+	margin-bottom: 20px;
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 195px;
+	transform: translateX(-50%);
+	z-index: 1;
+	padding: 0 20px;
+  }
+  .volume-box .volume-down {
+	font-size: 20px;
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: black;
+	
+  }
+  .volume-box .volume-up {
+	font-size: 20px;
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: #000000;
+	
+  }
+  .volume-box .volume-up::selection {
+	background-color: unset;
+  }
 
+  .volume-box.active {
+	display: block;
+  }
+ 
   
-
-  
+  .volume-box input[type=range] {
+	margin-bottom: 15px;
+   position: center;
+	max-height: 4px;
+	max-width: 100px;
+   cursor: pointer;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+   background: #000000;
+   border-radius: 8px;
+   outline: none;
+   
+   
+   }
+   .volume-box input[type=range]::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 10px;
+  height: 10px;
+   border-radius: 50%;
+   background: #000000;
+   cursor: pointer;
+ 
+   
+   }

@@ -1,0 +1,70 @@
+.btn-box i {
+	font-size: 24px;
+	color: black;
+	margin: 0 30px;
+	cursor: pointer;
+  }
+  .btn-box i.active {
+	color: black;
+  }
+  .volume-box {
+	display: none;
+	position: absolute;
+	left: 50%;
+	bottom: 120px;
+	transform: translateX(-50%);
+	z-index: 1;
+	padding: 0 20px;
+  }
+  .volume-box .volume-down {
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: black;
+  }
+  .volume-box .volume-up {
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: black;
+  }
+  .volume-box .volume-up::selection {
+	background-color: unset;
+  }
+
+  .volume-box.active {
+	display: block;
+  }
+
+  .volume-box input[type=range] {
+    -webkit-box-flex: 1;
+       -ms-flex-positive: 1;
+           flex-grow: 1;
+           height: 5px;
+           width: 200px;
+           margin: 0 0 10px 0;
+   cursor: pointer;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+   background: #adcaf2;
+   border-radius: 8px;
+   outline: none;
+   
+   
+   }
+   .volume-box input[type=range]::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   height: 5px; 
+   width: 7px;
+   border-radius: 50%;
+   background: #adcaf2;
+   cursor: pointer;
+ 
+   
+   }
